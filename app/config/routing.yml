@@ -1,0 +1,4 @@
+nn_bugs_cms_web:
+    resource: "@NNBugsCmsWebBundle/Controller"
+    type:   annotation
+
