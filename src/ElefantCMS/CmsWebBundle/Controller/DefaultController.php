@@ -1,6 +1,6 @@
 <?php
 
-namespace NNBugs\CmsWebBundle\Controller;
+namespace ElefantCMS\CmsWebBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
@@ -19,6 +19,10 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('NNBugsCmsWebBundle:Default:index.html.twig');
+        $note = new \ElefantCMS\Classes\SingleNote("/vagrant/tmp/test-note.nnex");
+        $note->ParseSingleNote();
+        //
+        
+        return $this->render('ElefantCMSCmsWebBundle:Default:index.html.twig', array("Content" => $note->GetContent()));
     }
 }

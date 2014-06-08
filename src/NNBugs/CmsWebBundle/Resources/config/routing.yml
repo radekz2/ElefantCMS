@@ -1,3 +1,0 @@
-nn_bugs_cms_web_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: NNBugsCmsWebBundle:Default:index }

@@ -1,6 +1,6 @@
 <?php
 
-namespace NNBugs\CmsWebBundle\Tests\Controller;
+namespace ElefantCMS\CmsWebBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

@@ -9,7 +9,7 @@
 /vendor/
 /bin/
 /composer.phar
-/Vagrant
+/Vagrantfile
 /.vagrant
 /vagrant-shell
 /nbproject/private/

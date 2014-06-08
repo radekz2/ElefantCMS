@@ -1,6 +1,6 @@
 <?php
 
-namespace NNBugs\CmsWebBundle\DependencyInjection;
+namespace ElefantCMS\CmsWebBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
