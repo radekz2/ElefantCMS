@@ -13,6 +13,20 @@ namespace ElefantCMS\Services;
  *
  * @author radek
  */
-class RepositoryManager {
-    //put your code here
+class RepositoryManager 
+{
+    private $_repository_path = "";
+    
+    function __construct($repository_path) 
+    {
+        if (!file_exists($repository_path))
+        {
+            throw new \Exception("Invalid repository path: '" . $repository_path . "'");
+        }
+        else
+        {
+            $this->_repository_path = $repository_path;
+        }
+    }
+    
 }

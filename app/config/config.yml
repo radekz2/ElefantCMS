@@ -67,3 +67,8 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+    
+services:
+    elafant_cms_repository_manager:
+        class: ElefantCMS\Services\RepositoryManager
+        argumements: []

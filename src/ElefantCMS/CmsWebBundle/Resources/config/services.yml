@@ -1,7 +1,6 @@
 parameters:
 #    nn_bugs_cms_web.example.class: NNBugs\CmsWebBundle\Example
 
-services:
 #    nn_bugs_cms_web.example:
 #        class: %nn_bugs_cms_web.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
